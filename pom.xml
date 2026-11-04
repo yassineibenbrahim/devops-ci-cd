@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.insa.ws.soap</groupId>
-	<artifactId>AnalyseProjectFinal</artifactId>
+	<artifactId>AnalyseProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TD1</name>
 
