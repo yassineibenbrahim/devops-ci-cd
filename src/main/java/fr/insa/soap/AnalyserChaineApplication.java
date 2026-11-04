@@ -4,7 +4,7 @@ import jakarta.xml.ws.Endpoint;
 
 public class AnalyserChaineApplication {
 	public static String host = "0.0.0.0";
-	public static short port=8089;
+	public static short port=8088;
 	
 	public void demarrerService() {
 		String url = "http://"+host+":"+port+"/analyzer";
