@@ -3,11 +3,11 @@ package fr.insa.soap;
 import jakarta.xml.ws.Endpoint;
 
 public class AnalyserChaineApplication {
-	public static String host = "localhost";
+	public static String host = "0.0.0.0";
 	public static short port=8089;
 	
 	public void demarrerService() {
-		String url = "http://"+host+":"+port+"/";
+		String url = "http://"+host+":"+port+"/analyzer";
 		Endpoint.publish(url, new AnalyserChaineWS());
 	}
 	
