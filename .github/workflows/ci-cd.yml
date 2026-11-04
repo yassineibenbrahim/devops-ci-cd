@@ -31,14 +31,14 @@ jobs:
       - name: Vérification du JAR
         run: |
           ls -lh target/
-          test -f target/AnalyseProjectFinal-0.0.1-SNAPSHOT.jar
+          test -f target/AnalyseProject-0.0.1-SNAPSHOT.jar
 
       # Étape 5 : Sauvegarde du JAR
       - name: Sauvegarde du JAR
         uses: actions/upload-artifact@v4
         with:
           name: analyseproject-jar
-          path: target/AnalyseProjectFinal-0.0.1-SNAPSHOT.jar
+          path: target/AnalyseProject-0.0.1-SNAPSHOT.jar
           if-no-files-found: error
 
       # Étape 6 : Construction de l'image Docker
